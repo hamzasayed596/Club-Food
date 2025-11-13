@@ -2,7 +2,7 @@ app = "club-food"
 primary_region = "fra"
 
 [build]
-builder = "paketobuildpacks/builder:python"
+  builder = "paketobuildpacks/builder:python"
 
 [env]
   PYTHONUNBUFFERED = "true"
@@ -10,4 +10,5 @@ builder = "paketobuildpacks/builder:python"
 
 [processes]
   web = "python main.py"
+
 
