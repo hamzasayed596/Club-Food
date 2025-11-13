@@ -2,11 +2,12 @@ app = "club-food"
 primary_region = "fra"
 
 [build]
-  builder = "heroku/buildpacks:22"
+  builder = "paketobuildpacks/builder:base"
 
 [env]
   PYTHONUNBUFFERED = "true"
 
 [processes]
   app = "python main.py"
+
 
