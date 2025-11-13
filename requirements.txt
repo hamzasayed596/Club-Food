@@ -1,0 +1,4 @@
+os
+slack_bolt
+slack_bolt.adapter.socket_mode
+requests
