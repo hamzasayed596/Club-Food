@@ -6,8 +6,7 @@ primary_region = "fra"
 
 [env]
   PYTHONUNBUFFERED = "true"
+  PORT = "8080"
 
 [processes]
-  app = "python main.py"
-
-
+  web = "python main.py"
